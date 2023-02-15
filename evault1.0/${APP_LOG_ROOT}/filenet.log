@@ -1,0 +1,1445 @@
+2023-02-09T17:56:33.624+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 8988 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-09T17:56:33.644+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-09T17:56:35.251+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-09T17:56:35.280+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-09T17:56:35.281+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-09T17:56:35.282+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-09T17:56:35.474+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-09T17:56:35.474+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1742 ms
+ thread_id="1"2023-02-09T17:56:36.139+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-09T17:56:36.169+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-09T17:56:36.197+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.134 seconds (JVM running for 4.983)
+ thread_id="1"2023-02-10T11:32:16.015+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10036 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T11:32:16.107+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T11:32:18.857+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T11:32:18.887+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T11:32:18.887+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T11:32:18.888+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T11:32:19.217+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T11:32:19.217+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2924 ms
+ thread_id="1"2023-02-10T11:32:19.426+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T11:32:19.441+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T11:32:19.534+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T11:32:19.586+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T14:51:45.189+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 8256 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T14:51:45.204+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T14:51:46.569+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T14:51:46.591+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:51:46.592+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T14:51:46.592+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T14:51:46.762+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T14:51:46.763+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1492 ms
+ thread_id="1"2023-02-10T14:51:46.829+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T14:51:46.835+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T14:51:46.862+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T14:51:46.902+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T14:53:55.913+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 5592 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T14:53:55.925+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T14:53:56.999+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T14:53:57.012+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:53:57.012+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T14:53:57.013+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T14:53:57.165+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T14:53:57.166+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1188 ms
+ thread_id="1"2023-02-10T14:53:57.214+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T14:53:57.218+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T14:53:57.240+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T14:53:57.261+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T14:55:13.948+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 14676 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T14:55:13.958+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T14:55:15.060+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T14:55:15.075+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:55:15.076+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T14:55:15.076+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T14:55:15.227+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T14:55:15.227+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1209 ms
+ thread_id="1"2023-02-10T14:55:15.637+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:55:15.661+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T14:55:15.671+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.097 seconds (JVM running for 3.049)
+ thread_id="1"2023-02-10T14:55:52.551+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10836 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T14:55:52.563+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T14:55:53.608+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T14:55:53.623+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:55:53.623+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T14:55:53.624+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T14:55:53.767+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T14:55:53.767+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1140 ms
+ thread_id="1"2023-02-10T14:55:54.147+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:55:54.170+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T14:55:54.184+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.981 seconds (JVM running for 2.888)
+ thread_id="1"2023-02-10T14:57:46.417+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T14:57:46.417+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T14:57:46.418+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="32"2023-02-10T14:59:26.423+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 19936 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T14:59:26.436+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T14:59:27.492+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T14:59:27.508+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:59:27.508+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T14:59:27.509+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T14:59:27.644+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T14:59:27.645+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1152 ms
+ thread_id="1"2023-02-10T14:59:28.035+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T14:59:28.058+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T14:59:28.072+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.996 seconds (JVM running for 2.933)
+ thread_id="1"2023-02-10T14:59:39.295+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T14:59:39.296+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T14:59:39.298+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="32"2023-02-10T16:58:36.930+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 19132 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T16:58:36.955+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T16:58:38.942+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T16:58:38.969+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:58:38.971+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T16:58:38.972+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T16:58:39.235+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T16:58:39.236+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2161 ms
+ thread_id="1"2023-02-10T16:58:39.956+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:58:39.970+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-10T16:58:40.039+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:58:40.040+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T16:58:40.062+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:58:40.063+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:58:40.083+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T16:58:40.114+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-10T16:59:16.669+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 8800 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T16:59:16.687+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T16:59:18.665+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T16:59:18.696+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:59:18.698+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T16:59:18.699+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T16:59:18.963+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T16:59:18.963+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2152 ms
+ thread_id="1"2023-02-10T16:59:19.675+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T16:59:19.712+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T16:59:19.740+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.814 seconds (JVM running for 5.595)
+ thread_id="1"2023-02-10T16:59:30.148+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="31"2023-02-10T16:59:30.149+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="31"2023-02-10T16:59:30.154+0530 INFO FrameworkServlet:Completed initialization in 4 ms
+ thread_id="31"2023-02-10T17:06:16.132+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 19072 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:06:16.162+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:06:19.548+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:06:19.590+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:06:19.592+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:06:19.594+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:06:20.016+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:06:20.016+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3670 ms
+ thread_id="1"2023-02-10T17:06:21.267+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:06:21.286+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-10T17:06:21.331+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:06:21.332+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:06:21.364+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:06:21.366+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:06:21.401+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:06:21.456+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-10T17:07:36.497+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 18156 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:07:36.522+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:07:38.515+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:07:38.545+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:07:38.546+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:07:38.546+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:07:38.800+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:07:38.801+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2135 ms
+ thread_id="1"2023-02-10T17:07:39.494+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:07:39.530+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:07:39.556+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.764 seconds (JVM running for 5.518)
+ thread_id="1"2023-02-10T17:08:16.026+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:08:16.028+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:08:16.030+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="32"2023-02-10T17:13:18.556+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 4304 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:13:18.584+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:13:20.984+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:13:21.035+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:13:21.039+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:13:21.041+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:13:21.463+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:13:21.464+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2730 ms
+ thread_id="1"2023-02-10T17:13:22.683+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:13:22.759+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:13:22.801+0530 INFO StartupInfoLogger:Started EvaultApplication in 5.028 seconds (JVM running for 7.156)
+ thread_id="1"2023-02-10T17:13:36.463+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="31"2023-02-10T17:13:36.464+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="31"2023-02-10T17:13:36.470+0530 INFO FrameworkServlet:Completed initialization in 4 ms
+ thread_id="31"2023-02-10T17:16:52.142+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 11408 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:16:52.166+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:16:54.091+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:16:54.118+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:16:54.119+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:16:54.120+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:16:54.374+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:16:54.374+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2088 ms
+ thread_id="1"2023-02-10T17:16:54.455+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'pehchanService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.service.PehchanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:16:54.462+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:16:54.564+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:16:54.613+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field pehchanService in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.service.PehchanService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.service.PehchanService' in your configuration.
+
+ thread_id="1"2023-02-10T17:17:35.102+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 7808 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:17:35.124+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:17:37.059+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:17:37.085+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:17:37.087+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:17:37.087+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:17:37.319+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:17:37.319+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2077 ms
+ thread_id="1"2023-02-10T17:17:37.431+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:17:37.438+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:17:37.476+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:17:37.516+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:18:22.998+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 11928 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:18:23.024+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:18:24.934+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:18:24.960+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:18:24.962+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:18:24.963+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:18:25.210+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:18:25.211+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2037 ms
+ thread_id="1"2023-02-10T17:18:25.300+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:18:25.308+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:18:25.345+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:18:25.385+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:19:11.293+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 7460 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:19:11.318+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:19:13.223+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:19:13.255+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:19:13.256+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:19:13.257+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:19:13.512+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:19:13.513+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2086 ms
+ thread_id="1"2023-02-10T17:19:13.598+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:19:13.607+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:19:13.644+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:19:13.691+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:19:43.514+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 4396 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:19:43.537+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:19:45.421+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:19:45.445+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:19:45.446+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:19:45.447+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:19:45.745+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:19:45.745+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2093 ms
+ thread_id="1"2023-02-10T17:19:46.394+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:19:46.431+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:19:46.455+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.669 seconds (JVM running for 5.424)
+ thread_id="1"2023-02-10T17:20:17.426+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 12848 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:20:17.451+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:20:19.558+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:20:19.593+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:20:19.594+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:20:19.595+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:20:19.922+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:20:19.923+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2341 ms
+ thread_id="1"2023-02-10T17:20:20.006+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:20:20.011+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:20:20.050+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:20:20.087+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:21:05.102+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 1280 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:21:05.124+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:21:06.994+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:21:07.019+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:21:07.021+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:21:07.022+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:21:07.298+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:21:07.298+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2061 ms
+ thread_id="1"2023-02-10T17:21:07.940+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:21:07.977+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:21:08.001+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.696 seconds (JVM running for 5.396)
+ thread_id="1"2023-02-10T17:21:14.069+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:21:14.070+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:21:14.073+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="32"2023-02-10T17:22:43.801+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10840 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:22:43.823+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:22:45.776+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:22:45.802+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:22:45.804+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:22:45.804+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:22:46.059+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:22:46.059+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2124 ms
+ thread_id="1"2023-02-10T17:22:46.739+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:22:46.777+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:22:46.807+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.702 seconds (JVM running for 5.479)
+ thread_id="1"2023-02-10T17:22:50.127+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:22:50.128+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="32"2023-02-10T17:22:50.130+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="32"2023-02-10T17:24:47.867+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 2704 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:24:47.890+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:24:49.786+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:24:49.809+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:24:49.811+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:24:49.813+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:24:50.048+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:24:50.049+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2019 ms
+ thread_id="1"2023-02-10T17:24:50.714+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:24:50.749+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:24:50.749+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:24:50.750+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-10T17:24:50.754+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:24:50.776+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.627 seconds (JVM running for 5.321)
+ thread_id="1"2023-02-10T17:26:58.729+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10760 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:26:58.749+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:27:00.676+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:27:00.700+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:27:00.702+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:27:00.703+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:27:00.943+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:27:00.944+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2078 ms
+ thread_id="1"2023-02-10T17:27:01.632+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:27:01.669+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:27:01.669+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:27:01.672+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="1"2023-02-10T17:27:01.676+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:27:01.698+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.665 seconds (JVM running for 5.342)
+ thread_id="1"2023-02-10T17:29:05.257+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 5992 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:29:05.282+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:29:07.482+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:29:07.509+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:29:07.510+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:29:07.511+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:29:07.821+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:29:07.822+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2404 ms
+ thread_id="1"2023-02-10T17:29:08.598+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:29:08.636+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:29:08.636+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:29:08.638+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-10T17:29:08.641+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:29:08.663+0530 INFO StartupInfoLogger:Started EvaultApplication in 4.246 seconds (JVM running for 6.219)
+ thread_id="1"2023-02-10T17:32:02.025+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 1292 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:32:02.046+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:32:03.946+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:32:03.970+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:32:03.972+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:32:03.973+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:32:04.235+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:32:04.236+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2065 ms
+ thread_id="1"2023-02-10T17:32:04.320+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:32:04.326+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:32:04.365+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:32:04.409+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:32:55.563+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10144 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:32:55.585+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:32:57.680+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:32:57.708+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:32:57.709+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:32:57.710+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:32:57.987+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:32:57.988+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2291 ms
+ thread_id="1"2023-02-10T17:32:58.075+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-10T17:32:58.082+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:32:58.120+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:32:58.169+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-10T17:35:23.623+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 8752 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:35:23.648+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:35:25.471+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:35:25.496+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:35:25.497+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:35:25.498+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:35:25.713+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:35:25.714+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1945 ms
+ thread_id="1"2023-02-10T17:35:26.390+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:35:26.428+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:35:26.429+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-10T17:35:26.431+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-10T17:35:26.435+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-10T17:35:26.469+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.522 seconds (JVM running for 5.205)
+ thread_id="1"2023-02-10T17:36:52.782+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 5440 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:36:52.804+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:36:54.809+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:36:54.835+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:36:54.837+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:36:54.838+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:36:55.097+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:36:55.097+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2183 ms
+ thread_id="1"2023-02-10T17:36:55.868+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:36:55.882+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-10T17:36:55.916+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:36:55.917+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:36:55.937+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:36:55.938+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:36:55.964+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:36:56.006+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-10T17:56:43.260+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 5264 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-10T17:56:43.285+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-10T17:56:45.111+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-10T17:56:45.136+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:56:45.137+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-10T17:56:45.138+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-10T17:56:45.384+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-10T17:56:45.385+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1980 ms
+ thread_id="1"2023-02-10T17:56:46.023+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:56:46.036+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-10T17:56:46.063+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:56:46.064+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-10T17:56:46.083+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:56:46.084+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-10T17:56:46.103+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-10T17:56:46.131+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T14:34:40.733+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 15776 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T14:34:40.756+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T14:34:42.950+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T14:34:42.981+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:34:42.981+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T14:34:42.983+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T14:34:43.238+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T14:34:43.239+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2349 ms
+ thread_id="1"2023-02-13T14:34:43.939+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:34:44.019+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T14:34:44.106+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:34:44.107+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T14:34:44.128+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:34:44.129+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:34:44.150+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T14:34:44.195+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T14:36:53.137+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 14588 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T14:36:53.158+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T14:36:55.098+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T14:36:55.126+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:36:55.127+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T14:36:55.128+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T14:36:55.378+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T14:36:55.379+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2108 ms
+ thread_id="1"2023-02-13T14:36:56.051+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T14:36:56.162+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T14:36:56.163+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T14:36:56.167+0530 INFO FrameworkServlet:Completed initialization in 4 ms
+ thread_id="1"2023-02-13T14:36:56.171+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T14:36:56.198+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.77 seconds (JVM running for 5.489)
+ thread_id="1"2023-02-13T15:13:45.719+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 17132 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T15:13:45.730+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T15:13:46.750+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T15:13:46.764+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:13:46.764+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T15:13:46.765+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T15:13:46.916+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T15:13:46.916+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1126 ms
+ thread_id="1"2023-02-13T15:13:47.300+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:13:47.306+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T15:13:47.323+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:13:47.323+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T15:13:47.332+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:13:47.332+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:13:47.344+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T15:13:47.362+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T15:14:46.797+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 3160 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T15:14:46.808+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T15:14:47.832+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T15:14:47.850+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:14:47.851+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T15:14:47.851+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T15:14:48.005+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T15:14:48.005+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1142 ms
+ thread_id="1"2023-02-13T15:14:48.368+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:14:48.388+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T15:14:48.389+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T15:14:48.389+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T15:14:48.390+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T15:14:48.401+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.95 seconds (JVM running for 2.873)
+ thread_id="1"2023-02-13T15:26:35.257+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 1192 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T15:26:35.268+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T15:26:36.279+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T15:26:36.295+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:26:36.295+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T15:26:36.295+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T15:26:36.433+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T15:26:36.433+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1109 ms
+ thread_id="1"2023-02-13T15:26:36.810+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T15:26:36.830+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T15:26:36.830+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T15:26:36.832+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T15:26:36.834+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T15:26:36.846+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.946 seconds (JVM running for 2.84)
+ thread_id="1"2023-02-13T16:29:53.737+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 16520 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:29:53.747+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:29:54.902+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:29:54.918+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:29:54.918+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:29:54.918+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:29:55.050+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:29:55.050+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1239 ms
+ thread_id="1"2023-02-13T16:29:55.438+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:29:55.459+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:29:55.459+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:29:55.460+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T16:29:55.461+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T16:29:55.473+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.086 seconds (JVM running for 3.118)
+ thread_id="1"2023-02-13T16:42:28.946+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 17756 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:42:28.958+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:42:29.970+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:42:29.984+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:42:29.984+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:42:29.984+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:42:30.107+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:42:30.108+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1087 ms
+ thread_id="1"2023-02-13T16:42:30.481+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:42:30.488+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T16:42:30.501+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:42:30.501+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T16:42:30.511+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:42:30.511+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:42:30.523+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T16:42:30.539+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T16:43:16.473+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 13760 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:43:16.485+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:43:17.550+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:43:17.566+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:43:17.566+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:43:17.567+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:43:17.701+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:43:17.701+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1162 ms
+ thread_id="1"2023-02-13T16:43:18.072+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:43:18.091+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:43:18.091+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:43:18.091+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T16:43:18.093+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T16:43:18.107+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.987 seconds (JVM running for 2.857)
+ thread_id="1"2023-02-13T16:47:20.419+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 12948 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:47:20.431+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:47:21.459+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:47:21.475+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:47:21.475+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:47:21.475+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:47:21.623+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:47:21.623+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1132 ms
+ thread_id="1"2023-02-13T16:47:21.987+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:47:21.993+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T16:47:22.007+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:47:22.007+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T16:47:22.019+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:47:22.019+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:47:22.030+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T16:47:22.047+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T16:48:12.298+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 15400 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:48:12.308+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:48:13.447+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:48:13.462+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:48:13.462+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:48:13.462+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:48:13.603+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:48:13.603+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1240 ms
+ thread_id="1"2023-02-13T16:48:13.978+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:48:13.998+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:48:13.998+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:48:13.999+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T16:48:14.000+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T16:48:14.018+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.079 seconds (JVM running for 3.014)
+ thread_id="1"2023-02-13T16:59:04.550+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 16168 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T16:59:04.578+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T16:59:06.754+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T16:59:06.782+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:59:06.782+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T16:59:06.783+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T16:59:07.074+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T16:59:07.075+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2367 ms
+ thread_id="1"2023-02-13T16:59:07.938+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T16:59:07.979+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:59:07.980+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T16:59:07.982+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="1"2023-02-13T16:59:07.986+0530 INFO TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+ thread_id="1"2023-02-13T16:59:08.018+0530 INFO StartupInfoLogger:Started EvaultApplication in 4.391 seconds (JVM running for 6.544)
+ thread_id="1"2023-02-13T17:01:23.944+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 16324 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:01:23.968+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:01:25.598+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T17:01:25.622+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:01:25.622+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:01:25.623+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:01:25.815+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:01:25.816+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1749 ms
+ thread_id="1"2023-02-13T17:01:26.441+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:01:26.449+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T17:01:26.483+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:01:26.483+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:01:26.499+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:01:26.501+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:01:26.526+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:01:26.572+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:03:59.825+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 2452 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:03:59.838+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:04:01.108+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+ thread_id="1"2023-02-13T17:04:01.126+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:04:01.127+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:04:01.127+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:04:01.291+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:04:01.292+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1375 ms
+ thread_id="1"2023-02-13T17:04:01.730+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:04:01.741+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ thread_id="1"2023-02-13T17:04:01.759+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:04:01.759+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:04:01.778+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:04:01.778+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8080"]
+ thread_id="1"2023-02-13T17:04:01.802+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:04:01.827+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:04:32.385+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 10072 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:04:32.402+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:04:33.676+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8081 (http)
+ thread_id="1"2023-02-13T17:04:33.699+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:04:33.699+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:04:33.699+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:04:33.873+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:04:33.874+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1397 ms
+ thread_id="1"2023-02-13T17:04:34.333+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:04:34.363+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:04:34.364+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:04:34.365+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:04:34.367+0530 INFO TomcatWebServer:Tomcat started on port(s): 8081 (http) with context path ''
+ thread_id="1"2023-02-13T17:04:34.379+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.399 seconds (JVM running for 3.454)
+ thread_id="1"2023-02-13T17:12:05.862+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 18232 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:12:05.874+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:12:07.091+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8081 (http)
+ thread_id="1"2023-02-13T17:12:07.112+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:12:07.112+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:12:07.112+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:12:07.279+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:12:07.279+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1340 ms
+ thread_id="1"2023-02-13T17:12:07.722+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:12:07.732+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+ thread_id="1"2023-02-13T17:12:07.750+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:12:07.750+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:12:07.761+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:12:07.762+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8081"]
+ thread_id="1"2023-02-13T17:12:07.773+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:12:07.797+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:12:48.768+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 14676 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:12:48.782+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:12:50.028+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+ thread_id="1"2023-02-13T17:12:50.042+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:12:50.042+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:12:50.042+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:12:50.220+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:12:50.220+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1363 ms
+ thread_id="1"2023-02-13T17:12:50.661+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:12:50.686+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:12:50.686+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:12:50.687+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:12:50.688+0530 INFO TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+ thread_id="1"2023-02-13T17:12:50.704+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.359 seconds (JVM running for 3.515)
+ thread_id="1"2023-02-13T17:16:24.619+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 15380 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:16:24.634+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:16:25.879+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+ thread_id="1"2023-02-13T17:16:25.896+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:16:25.896+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:16:25.897+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:16:26.058+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:16:26.058+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1360 ms
+ thread_id="1"2023-02-13T17:16:26.524+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:16:26.533+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+ thread_id="1"2023-02-13T17:16:26.552+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:16:26.553+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:16:26.569+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:16:26.570+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8082"]
+ thread_id="1"2023-02-13T17:16:26.586+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:16:26.618+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:16:53.492+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 3020 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:16:53.506+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:16:54.764+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8083 (http)
+ thread_id="1"2023-02-13T17:16:54.783+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:16:54.783+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:16:54.783+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:16:54.941+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:16:54.941+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1367 ms
+ thread_id="1"2023-02-13T17:16:55.400+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:16:55.426+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:16:55.426+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:16:55.427+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:16:55.429+0530 INFO TomcatWebServer:Tomcat started on port(s): 8083 (http) with context path ''
+ thread_id="1"2023-02-13T17:16:55.446+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.387 seconds (JVM running for 3.546)
+ thread_id="1"2023-02-13T17:17:50.518+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 17068 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:17:50.532+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:17:51.747+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8083 (http)
+ thread_id="1"2023-02-13T17:17:51.771+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:17:51.771+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:17:51.772+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:17:51.932+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:17:51.933+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1323 ms
+ thread_id="1"2023-02-13T17:17:52.404+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:17:52.412+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+ thread_id="1"2023-02-13T17:17:52.433+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:17:52.433+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:17:52.446+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:17:52.446+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8083"]
+ thread_id="1"2023-02-13T17:17:52.458+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:17:52.487+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:18:17.325+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 8704 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:18:17.343+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:18:18.583+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8084 (http)
+ thread_id="1"2023-02-13T17:18:18.598+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:18:18.599+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:18:18.600+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:18:18.765+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:18:18.765+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1352 ms
+ thread_id="1"2023-02-13T17:18:19.209+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:18:19.234+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:18:19.236+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:18:19.236+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T17:18:19.239+0530 INFO TomcatWebServer:Tomcat started on port(s): 8084 (http) with context path ''
+ thread_id="1"2023-02-13T17:18:19.257+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.361 seconds (JVM running for 3.434)
+ thread_id="1"2023-02-13T17:24:18.737+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 1072 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:24:18.749+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:24:19.956+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8084 (http)
+ thread_id="1"2023-02-13T17:24:19.973+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:24:19.976+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:24:19.977+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:24:20.146+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:24:20.147+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1333 ms
+ thread_id="1"2023-02-13T17:24:20.606+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:24:20.634+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:24:20.634+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:24:20.635+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:24:20.638+0530 INFO TomcatWebServer:Tomcat started on port(s): 8084 (http) with context path ''
+ thread_id="1"2023-02-13T17:24:20.653+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.434 seconds (JVM running for 3.535)
+ thread_id="1"2023-02-13T17:32:41.560+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 620 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:32:41.575+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:32:42.828+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8084 (http)
+ thread_id="1"2023-02-13T17:32:42.852+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:32:42.853+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:32:42.853+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:32:43.010+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:32:43.010+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1359 ms
+ thread_id="1"2023-02-13T17:32:43.520+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:32:43.530+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8084 is already in use
+ thread_id="1"2023-02-13T17:32:43.550+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:32:43.550+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:32:43.570+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:32:43.571+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8084"]
+ thread_id="1"2023-02-13T17:32:43.586+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:32:43.619+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:33:21.443+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 15236 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:33:21.455+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:33:22.714+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8085 (http)
+ thread_id="1"2023-02-13T17:33:22.732+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8085"]
+ thread_id="1"2023-02-13T17:33:22.732+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:33:22.733+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:33:22.894+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:33:22.894+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1356 ms
+ thread_id="1"2023-02-13T17:33:23.370+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8085"]
+ thread_id="1"2023-02-13T17:33:23.400+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:33:23.400+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:33:23.402+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:33:23.404+0530 INFO TomcatWebServer:Tomcat started on port(s): 8085 (http) with context path ''
+ thread_id="1"2023-02-13T17:33:23.418+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.416 seconds (JVM running for 3.562)
+ thread_id="1"2023-02-13T17:36:53.181+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 15432 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:36:53.193+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:36:54.474+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8086 (http)
+ thread_id="1"2023-02-13T17:36:54.496+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:36:54.497+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:36:54.498+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:36:54.663+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:36:54.663+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1393 ms
+ thread_id="1"2023-02-13T17:36:55.117+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:36:55.144+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:36:55.145+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:36:55.145+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T17:36:55.148+0530 INFO TomcatWebServer:Tomcat started on port(s): 8086 (http) with context path ''
+ thread_id="1"2023-02-13T17:36:55.161+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.434 seconds (JVM running for 3.53)
+ thread_id="1"2023-02-13T17:39:04.544+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 13408 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:39:04.558+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:39:05.784+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8086 (http)
+ thread_id="1"2023-02-13T17:39:05.809+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:39:05.809+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:39:05.810+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:39:06.000+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:39:06.000+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1375 ms
+ thread_id="1"2023-02-13T17:39:06.565+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:39:06.593+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:39:06.593+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:39:06.594+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T17:39:06.596+0530 INFO TomcatWebServer:Tomcat started on port(s): 8086 (http) with context path ''
+ thread_id="1"2023-02-13T17:39:06.617+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.683 seconds (JVM running for 3.845)
+ thread_id="1"2023-02-13T17:43:13.994+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 11488 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:43:14.007+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:43:15.233+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8086 (http)
+ thread_id="1"2023-02-13T17:43:15.249+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:43:15.250+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:43:15.251+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:43:15.432+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:43:15.432+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1355 ms
+ thread_id="1"2023-02-13T17:43:15.877+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:43:15.887+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8086 is already in use
+ thread_id="1"2023-02-13T17:43:15.905+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:43:15.905+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:43:15.921+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:43:15.922+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8086"]
+ thread_id="1"2023-02-13T17:43:15.940+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:43:15.967+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:43:38.469+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 19168 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:43:38.482+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:43:39.683+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8087 (http)
+ thread_id="1"2023-02-13T17:43:39.703+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:43:39.704+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:43:39.705+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:43:39.869+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:43:39.869+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1318 ms
+ thread_id="1"2023-02-13T17:43:40.316+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:43:40.341+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:43:40.342+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:43:40.344+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="1"2023-02-13T17:43:40.347+0530 INFO TomcatWebServer:Tomcat started on port(s): 8087 (http) with context path ''
+ thread_id="1"2023-02-13T17:43:40.363+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.299 seconds (JVM running for 3.374)
+ thread_id="1"2023-02-13T17:44:43.080+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 17576 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:44:43.094+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:44:44.641+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8087 (http)
+ thread_id="1"2023-02-13T17:44:44.674+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:44:44.674+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:44:44.674+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:44:44.854+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:44:44.854+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1670 ms
+ thread_id="1"2023-02-13T17:44:45.482+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:44:45.490+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8087 is already in use
+ thread_id="1"2023-02-13T17:44:45.517+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:44:45.518+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:44:45.538+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:44:45.539+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:44:45.560+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:44:45.599+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:46:48.389+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 7228 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:46:48.403+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:46:49.608+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8087 (http)
+ thread_id="1"2023-02-13T17:46:49.625+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:46:49.626+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:46:49.627+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:46:49.798+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:46:49.798+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1326 ms
+ thread_id="1"2023-02-13T17:46:50.258+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:46:50.265+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8087 is already in use
+ thread_id="1"2023-02-13T17:46:50.284+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:46:50.284+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T17:46:50.301+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:46:50.301+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8087"]
+ thread_id="1"2023-02-13T17:46:50.316+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T17:46:50.335+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-13T17:51:35.444+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 3532 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:51:35.459+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:51:36.661+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8088 (http)
+ thread_id="1"2023-02-13T17:51:36.683+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-13T17:51:36.684+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:51:36.685+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:51:36.882+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:51:36.882+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1355 ms
+ thread_id="1"2023-02-13T17:51:37.324+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-13T17:51:37.351+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:51:37.351+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:51:37.352+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-13T17:51:37.354+0530 INFO TomcatWebServer:Tomcat started on port(s): 8088 (http) with context path ''
+ thread_id="1"2023-02-13T17:51:37.372+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.404 seconds (JVM running for 3.647)
+ thread_id="1"2023-02-13T17:56:37.897+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 14620 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T17:56:37.909+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T17:56:39.131+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8089 (http)
+ thread_id="1"2023-02-13T17:56:39.153+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-13T17:56:39.154+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T17:56:39.155+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T17:56:39.338+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T17:56:39.338+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1363 ms
+ thread_id="1"2023-02-13T17:56:39.801+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-13T17:56:39.838+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:56:39.839+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T17:56:39.840+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T17:56:39.843+0530 INFO TomcatWebServer:Tomcat started on port(s): 8089 (http) with context path '/evault'
+ thread_id="1"2023-02-13T17:56:39.863+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.435 seconds (JVM running for 3.526)
+ thread_id="1"2023-02-13T20:30:17.691+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 20416 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T20:30:17.718+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T20:30:20.265+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8090 (http)
+ thread_id="1"2023-02-13T20:30:20.301+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-13T20:30:20.302+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T20:30:20.303+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T20:30:20.616+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T20:30:20.617+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2775 ms
+ thread_id="1"2023-02-13T20:30:20.748+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pehchanController': Unsatisfied dependency expressed through field 'message'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.evault.eb.Utils.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ thread_id="1"2023-02-13T20:30:20.755+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-13T20:30:20.807+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-13T20:30:20.862+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field message in com.evault.eb.Controller.PehchanController required a bean of type 'com.evault.eb.Utils.Messages' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.evault.eb.Utils.Messages' in your configuration.
+
+ thread_id="1"2023-02-13T20:32:55.717+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 16412 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-13T20:32:55.740+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-13T20:32:58.040+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8090 (http)
+ thread_id="1"2023-02-13T20:32:58.079+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-13T20:32:58.080+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-13T20:32:58.081+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-13T20:32:58.403+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-13T20:32:58.403+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2520 ms
+ thread_id="1"2023-02-13T20:32:59.247+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-13T20:32:59.294+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T20:32:59.294+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-13T20:32:59.295+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-13T20:32:59.299+0530 INFO TomcatWebServer:Tomcat started on port(s): 8090 (http) with context path ''
+ thread_id="1"2023-02-13T20:32:59.331+0530 INFO StartupInfoLogger:Started EvaultApplication in 4.398 seconds (JVM running for 6.301)
+ thread_id="1"2023-02-13T20:34:36.311+0530 INFO PehchanController:event : Birth
+ thread_id="35"2023-02-13T20:34:36.313+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="35"2023-02-13T20:34:45.163+0530 INFO PehchanController:event : Birth
+ thread_id="36"2023-02-13T20:34:45.164+0530 INFO PehchanController:Registration : null
+ thread_id="36"2023-02-14T11:32:52.332+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 4448 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T11:32:52.370+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T11:32:55.138+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8090 (http)
+ thread_id="1"2023-02-14T11:32:55.166+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-14T11:32:55.167+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T11:32:55.168+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T11:32:55.470+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T11:32:55.470+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2879 ms
+ thread_id="1"2023-02-14T11:32:56.219+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-14T11:32:56.283+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+ thread_id="1"2023-02-14T11:32:56.315+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-14T11:32:56.316+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-14T11:32:56.337+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-14T11:32:56.338+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8090"]
+ thread_id="1"2023-02-14T11:32:56.360+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-14T11:32:56.392+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-14T11:33:25.854+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 3288 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T11:33:25.874+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T11:33:27.856+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8091 (http)
+ thread_id="1"2023-02-14T11:33:27.882+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T11:33:27.883+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T11:33:27.884+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T11:33:28.150+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T11:33:28.150+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2160 ms
+ thread_id="1"2023-02-14T11:33:28.943+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T11:33:29.053+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T11:33:29.055+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T11:33:29.060+0530 INFO FrameworkServlet:Completed initialization in 3 ms
+ thread_id="1"2023-02-14T11:33:29.071+0530 INFO TomcatWebServer:Tomcat started on port(s): 8091 (http) with context path ''
+ thread_id="1"2023-02-14T11:33:29.122+0530 INFO StartupInfoLogger:Started EvaultApplication in 3.983 seconds (JVM running for 5.754)
+ thread_id="1"2023-02-14T11:33:47.712+0530 INFO PehchanController:event : Birth
+ thread_id="31"2023-02-14T11:33:47.713+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="31"2023-02-14T12:38:32.627+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 7036 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T12:38:32.638+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T12:38:33.703+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8091 (http)
+ thread_id="1"2023-02-14T12:38:33.719+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:38:33.719+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T12:38:33.719+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T12:38:33.876+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T12:38:33.876+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1184 ms
+ thread_id="1"2023-02-14T12:38:34.243+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:38:34.272+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:38:34.272+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:38:34.273+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-14T12:38:34.275+0530 INFO TomcatWebServer:Tomcat started on port(s): 8091 (http) with context path ''
+ thread_id="1"2023-02-14T12:38:34.292+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.042 seconds (JVM running for 2.956)
+ thread_id="1"2023-02-14T12:38:45.348+0530 INFO PehchanController:event : Birth
+ thread_id="31"2023-02-14T12:38:45.348+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="31"2023-02-14T12:40:31.122+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 14120 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T12:40:31.133+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T12:40:32.167+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8091 (http)
+ thread_id="1"2023-02-14T12:40:32.182+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:40:32.183+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T12:40:32.183+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T12:40:32.333+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T12:40:32.334+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1140 ms
+ thread_id="1"2023-02-14T12:40:32.699+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:40:32.718+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:40:32.719+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:40:32.719+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-14T12:40:32.726+0530 INFO TomcatWebServer:Tomcat started on port(s): 8091 (http) with context path ''
+ thread_id="1"2023-02-14T12:40:32.740+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.971 seconds (JVM running for 2.845)
+ thread_id="1"2023-02-14T12:40:40.489+0530 INFO PehchanController:event : Birth
+ thread_id="31"2023-02-14T12:40:40.490+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="31"2023-02-14T12:41:37.818+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 18760 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T12:41:37.832+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T12:41:38.896+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8091 (http)
+ thread_id="1"2023-02-14T12:41:38.911+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:41:38.912+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T12:41:38.912+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T12:41:39.095+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T12:41:39.095+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1202 ms
+ thread_id="1"2023-02-14T12:41:39.470+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:41:39.489+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:41:39.490+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:41:39.491+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-14T12:41:39.492+0530 INFO TomcatWebServer:Tomcat started on port(s): 8091 (http) with context path ''
+ thread_id="1"2023-02-14T12:41:39.504+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.027 seconds (JVM running for 2.928)
+ thread_id="1"2023-02-14T12:41:48.534+0530 INFO PehchanController:event : Birth
+ thread_id="31"2023-02-14T12:41:48.534+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="31"2023-02-14T12:41:48.536+0530 INFO PehchanController:eventDocType : null
+ thread_id="31"2023-02-14T12:41:48.537+0530 INFO CEConnection:in CE connection class
+ thread_id="31"2023-02-14T12:41:48.539+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="31"2023-02-14T12:41:48.727+0530 INFO CEConnection:Connection return :ConnectionImpl@0x2eb07dc9 URI=http://10.70.248.240:9080/wsi/FNCEWS40MTOM/ tenant=null Parameters={}
+ thread_id="31"2023-02-14T12:46:22.523+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on DESKTOP-L0UJ4LT with PID 16280 (C:\Users\HP\Desktop\Service\evault\target\classes started by HP in C:\Users\HP\Desktop\Service\evault)
+ thread_id="1"2023-02-14T12:46:22.534+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-14T12:46:23.777+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8091 (http)
+ thread_id="1"2023-02-14T12:46:23.794+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:46:23.795+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-14T12:46:23.796+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-14T12:46:23.959+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-14T12:46:23.959+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1366 ms
+ thread_id="1"2023-02-14T12:46:24.495+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8091"]
+ thread_id="1"2023-02-14T12:46:24.523+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:46:24.524+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-14T12:46:24.525+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-14T12:46:24.527+0530 INFO TomcatWebServer:Tomcat started on port(s): 8091 (http) with context path ''
+ thread_id="1"2023-02-14T12:46:24.543+0530 INFO StartupInfoLogger:Started EvaultApplication in 2.378 seconds (JVM running for 3.293)
+ thread_id="1"2023-02-14T12:46:35.236+0530 INFO PehchanController:event : Birth
+ thread_id="32"2023-02-14T12:46:35.238+0530 INFO PehchanController:Registration : 08126006000000900062
+ thread_id="32"2023-02-14T12:46:35.240+0530 INFO PehchanController:eventDocType : null
+ thread_id="32"2023-02-14T12:46:35.242+0530 INFO CEConnection:in CE connection class
+ thread_id="32"2023-02-14T12:46:35.244+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="32"2023-02-14T12:46:35.402+0530 INFO CEConnection:Connection return :ConnectionImpl@0xb1c06ab6 URI=http://10.70.244.52:9080/wsi/FNCEWS40MTOM/ tenant=null Parameters={}
+ thread_id="32"
