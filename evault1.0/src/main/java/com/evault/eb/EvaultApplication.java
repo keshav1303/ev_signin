@@ -10,10 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
-
 @ComponentScan("com.evault.eb.*")
-
-
 public class EvaultApplication extends SpringBootServletInitializer {
 
 	@Override
@@ -23,10 +20,6 @@ public class EvaultApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EvaultApplication.class, args);
-//		Logger.debug("This is a debug message");
-//		Logger.info("This is a debug message");
-//		Logger.warn("This is a warn message");
-//		Logger.error("This is a error message");
 	}
 
 }

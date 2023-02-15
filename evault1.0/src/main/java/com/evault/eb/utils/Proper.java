@@ -1,5 +1,4 @@
-package com.evault.eb.Utils;
-import java.io.FileInputStream;
+package com.evault.eb.utils;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Proper {
-	private static com.evault.eb.Utils.Proper inst;
+	private static com.evault.eb.utils.Proper inst;
 	  
 	  public static String url;
 	  
@@ -73,7 +72,7 @@ public class Proper {
 	        prototype = props.getProperty("prototype");
 	        service = props.getProperty("service");
 	        url = props.getProperty("corbalocurl");
-	        inst = new com.evault.eb.Utils.Proper();
+	        inst = new com.evault.eb.utils.Proper();
 	      } catch (Exception ex) {
 	    	  System.out.println("LogFile.LoggerException "+ ex);
 	      }  

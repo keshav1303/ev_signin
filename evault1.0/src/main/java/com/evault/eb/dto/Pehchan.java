@@ -1,4 +1,4 @@
-package com.evault.eb.DTO;
+package com.evault.eb.dto;
 
 
 public class Pehchan {

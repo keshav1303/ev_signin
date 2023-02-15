@@ -1,76 +1,75 @@
-package com.evault.eb.Utils;
+package com.evault.eb.utils;
 
-import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.UUID;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
+import com.evault.eb.controller.PehchanController;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class DbUtils {
 
+    private static final Logger logger = LogManager.getLogger(DbUtils.class);
+
+    @Value("${services.insert.query}")
+    private String AddDoc;
     DataSource _ds = null;
-
     Context _ctx = null;
-
     public static String deptUserName;
-
     public static String deptPassword;
-
     public static String deptObjectStore;
-    
+
     public Connection getDB2Connection() throws NamingException {
         Connection connection = null;
         this._ctx = new InitialContext();
-        System.out.println("context---" + this._ctx);
-        this._ds = (DataSource)this._ctx.lookup("jdbc/DIGILOC");
-        System.out.println("Datasource----" + this._ds);
+        logger.info("context---" + this._ctx);
+        this._ds = (DataSource) this._ctx.lookup("jdbc/DIGILOC");
+        logger.info("Datasource----" + this._ds);
         try {
             connection = this._ds.getConnection();
         } catch (SQLException ex) {
-            System.out.println("Exception  : " + ex.getMessage());
+            logger.info("Exception  : " + ex.getMessage());
         }
         return connection;
     }
-      
-   
-      
-    
-      
-      public boolean globalInputsForviewDocument(String incidentID, String os, String RegistrationNumber, String DOCID, String DocType, String Version,String ResponseCode,long FetchTimestamp,String DataRequired) {
+
+
+    public boolean globalInputsForviewDocument(String incidentID, String os, String RegistrationNumber, String DOCID, String DocType, String Version, String ResponseCode, long FetchTimestamp, String DataRequired) {
         boolean flag = false;
         Connection connection = null;
         Statement stmt = null;
         try {
-        	connection=getDB2Connection();
-          String insertsql = "insert into APP_PEHCHAN_DOCVIEW(INCIDENT_ID,OS,REGISTRATIONNUMBER,DOCID,DOCTYPE,VERSION,RESPONSECODE,FETCHTIMESTAMP,DATAREQUIRED)values('" + incidentID + "','" + os + "','" + RegistrationNumber + "','" + DOCID + "','" + DocType + "', '" + Version + "', '" + ResponseCode + "', '" + FetchTimestamp + "', '" + DataRequired + "')";
-          stmt = connection.createStatement();
-          stmt.execute(insertsql);
-          System.out.println("*****Inserted data here****");
-          flag = true;
+            connection = getDB2Connection();
+            String insertsql = "insert into APP_PEHCHAN_DOCVIEW(INCIDENT_ID,OS,REGISTRATIONNUMBER,DOCID,DOCTYPE,VERSION,RESPONSECODE,FETCHTIMESTAMP,DATAREQUIRED)values('" + incidentID + "','" + os + "','" + RegistrationNumber + "','" + DOCID + "','" + DocType + "', '" + Version + "', '" + ResponseCode + "', '" + FetchTimestamp + "', '" + DataRequired + "')";
+            stmt = connection.createStatement();
+            stmt.execute(insertsql);
+            logger.info("*****Inserted data here****");
+            flag = true;
         } catch (SQLException e) {
-          System.out.println("SQLException : globalInputsForPushLogs :" + e.getMessage());
+            logger.info("SQLException : globalInputsForPushLogs :" + e.getMessage());
         } catch (NamingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} finally {
-          try {
-            if (stmt != null)
-              stmt.close(); 
-          } catch (Exception ex) {
-            System.out.println("Exception : globalInputsForPushLogs finally block:" + ex.getMessage());
-          } 
-        } 
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            try {
+                if (stmt != null)
+                    stmt.close();
+            } catch (Exception ex) {
+                logger.info("Exception : globalInputsForPushLogs finally block:" + ex.getMessage());
+            }
+        }
         return flag;
-      }
-      
+    }
+
 //      public boolean globalUpdateResponseDBUpdate(String incidentID, String DocID, String ResponseCode, String FinalResponse, Connection connection) {
 //        boolean flag = false;
 //        Statement stmt = null;
@@ -120,8 +119,8 @@ public class DbUtils {
 //        } 
 //        return flag;
 //      }
-      
-      
+
+
 //      public boolean insertRecord(String INCIDENTID, String REGISTRATIONNUMBER,String DOCTYPE,  String DOCID, String RESPONSECODE,long FETCHTIMESTAMP) {
 //        boolean result = false;
 //        CallableStatement proc = null;
@@ -180,5 +179,5 @@ public class DbUtils {
 //        } 
 //      }
 //      
-      
+
 }

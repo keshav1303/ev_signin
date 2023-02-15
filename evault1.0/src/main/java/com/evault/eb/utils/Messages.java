@@ -1,4 +1,4 @@
-package com.evault.eb.Utils;
+package com.evault.eb.utils;
 
 import org.springframework.stereotype.Component;
 

@@ -9,11 +9,27 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+import java.io.IOException;
+
 @ControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(UserNotFoundException.class)
-    public ResponseEntity<String> handlerUserNotFoundException(UserNotFoundException exception){
+    @ExceptionHandler(SomethingWentWrongException.class)
+    public ResponseEntity<String> handlerSomethingWentWrongException(SomethingWentWrongException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(NoSuchPropertyFoundException.class)
+    public ResponseEntity<String> handlerNoSuchPropertyFoundException(NoSuchPropertyFoundException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(IOException.class)
+    public ResponseEntity<String> handlerIOException(IOException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+    @ExceptionHandler(NoPropertyFileFoundException.class)
+    public ResponseEntity<String> handlerNoPropertyFileFoundException(NoPropertyFileFoundException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
     }
 

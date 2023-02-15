@@ -1,4 +1,4 @@
-package com.evault.eb.Entity;
+package com.evault.eb.entity;
 
 public class PehchanTransactionEntity {
     private String INCIDENTID;
