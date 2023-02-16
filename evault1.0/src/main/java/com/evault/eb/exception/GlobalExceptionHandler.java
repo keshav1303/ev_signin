@@ -23,6 +23,39 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     public ResponseEntity<String> handlerNoSuchPropertyFoundException(NoSuchPropertyFoundException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
     }
+    @ExceptionHandler(InvalidRegistrationNumberException.class)
+    public ResponseEntity<String> handlerInvalidRegistrationNumberException(InvalidRegistrationNumberException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+    @ExceptionHandler(InvalidYearException.class)
+    public ResponseEntity<String> handlerInvalidYearException(InvalidYearException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(InvalidEventTypeException.class)
+    public ResponseEntity<String> handlerInvalidEventTypeException(InvalidEventTypeException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+//
+    @ExceptionHandler(InvalidEventDocTypeInfoException.class)
+    public ResponseEntity<String> handlerInvalidEventDocTypeInfoException(InvalidEventDocTypeInfoException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+    @ExceptionHandler(InvalidOfficeIdExecption.class)
+    public ResponseEntity<String> handlerInvalidOfficeIdExecption(InvalidOfficeIdExecption exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(InvalidDocIdException.class)
+    public ResponseEntity<String> handlerInvalidDocIdException(InvalidDocIdException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(InvalidCodeException.class)
+    public ResponseEntity<String> handlerInvalidCodeException(InvalidCodeException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
 
     @ExceptionHandler(IOException.class)
     public ResponseEntity<String> handlerIOException(IOException exception){
