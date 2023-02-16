@@ -6,6 +6,9 @@ import com.evault.eb.utils.Messages;
 import com.evault.eb.utils.ReadPropertiesFile;
 import com.evault.eb.utils.Utility;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.filenet.search.DAO.GetDocumentDAO;
+import com.filenet.search.impl.GetDocumentImpl;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONException;
@@ -21,7 +24,6 @@ import java.util.UUID;
 @Service
 public class PehchanService {
     private static final Logger logger = LogManager.getLogger(PehchanService.class);
-
 
     public String getUrl(Pehchan pehchan) {
         String jsonGetDocumentResult = null;

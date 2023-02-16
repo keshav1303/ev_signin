@@ -35,9 +35,7 @@ public class PehchanController {
     private static final Logger logger = LogManager.getLogger(PehchanController.class);
     @Autowired
     private PehchanService pehchanService;
-
-    @Autowired
-    private Messages message;
+    
     @PostMapping("/getDoc")
     public ResponseEntity<String> getDoc(@RequestBody Pehchan pehchan) throws JsonMappingException, JsonProcessingException, JSONException {
         String url = pehchanService.getUrl(pehchan);
