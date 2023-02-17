@@ -19,20 +19,15 @@ public class Pehchan {
 	public void setYear(String year) {
 		this.year = year;
 	}
-	public String getEventDocType() {
+	public String getEvent() {
 		return event;
 	}
-	public void setEventDocType(String eventDocType) {
-		this.event = eventDocType;
+	public void setEvent(String event) {
+		this.event = event;
 	}
 	@Override
 	public String toString() {
-		return "Pehchan [Registration=" + Registration + ", year=" + year + ", eventDocType=" + event
-				+ ", getRegistration()=" + getRegistration() + ", getYear()=" + getYear() + ", getEventDocType()="
-				+ getEventDocType() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "Pehchan [Registration=" + Registration + ", year=" + year + ", event=" + event + "]";
 	}
-    
-    
-    
 }
+	

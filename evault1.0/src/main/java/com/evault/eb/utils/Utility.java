@@ -9,20 +9,7 @@ import org.springframework.stereotype.Component;
 import org.json.JSONObject;
 @Component
 public class Utility {
-	
-	  
-//	  public static String returnInValidInputMessageRepodocId(String classname, String departmentKey, String repoDocId) {
-//	    String resultMsg = "OK";
-//	    if (classname == null || classname.isEmpty()) {
-//	      resultMsg = "Please enter valid class name.";
-//	    } else if (departmentKey == null || departmentKey.isEmpty()) {
-//	      resultMsg = "Please enter valid department key.";
-//	    } else if (repoDocId == null || repoDocId.isEmpty()) {
-//	      resultMsg = "Please enter repodocid.";
-//	    } 
-//	    return resultMsg;
-//	  }
-	  
+
 	  public static String getJsonResponse(String status, String docExists, String responseCode, String incidentID, String Url, String messages) throws JSONException {
 	    JSONObject jsonResponse = new JSONObject();
 	    jsonResponse.put("Status", status);

@@ -23,6 +23,21 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     public ResponseEntity<String> handlerNoSuchPropertyFoundException(NoSuchPropertyFoundException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
     }
+
+    @ExceptionHandler(SQLInsertDataException.class)
+    public ResponseEntity<String> handlerSQLInsertDataException(SQLInsertDataException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(SQLUpdateDataException.class)
+    public ResponseEntity<String> handlerSQLUpdateDataException(SQLUpdateDataException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+    
+    @ExceptionHandler(DocumentNotFoundException.class)
+    public ResponseEntity<String> handlerDocumentNotFoundException(DocumentNotFoundException exception){
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+    }
     @ExceptionHandler(InvalidRegistrationNumberException.class)
     public ResponseEntity<String> handlerInvalidRegistrationNumberException(InvalidRegistrationNumberException exception){
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);

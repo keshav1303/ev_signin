@@ -1,0 +1,220 @@
+2023-02-17T18:22:52.056+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 9328 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:22:52.068+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:22:52.962+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8040 (http)
+ thread_id="1"2023-02-17T18:22:52.973+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:22:52.973+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:22:52.973+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:22:53.116+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:22:53.117+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 998 ms
+ thread_id="1"2023-02-17T18:22:53.170+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:22:53.440+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:22:53.458+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:22:53.458+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:22:53.459+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-17T18:22:53.461+0530 INFO TomcatWebServer:Tomcat started on port(s): 8040 (http) with context path ''
+ thread_id="1"2023-02-17T18:22:53.470+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.722 seconds (JVM running for 2.496)
+ thread_id="1"2023-02-17T18:23:14.044+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="36"2023-02-17T18:23:14.060+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="36"2023-02-17T18:23:14.060+0530 INFO PehchanServiceImpl:eventDocType : PehchanDateOfBirth
+ thread_id="36"2023-02-17T18:23:14.060+0530 ERROR PehchanServiceImpl:registration : 
+ thread_id="36"2023-02-17T18:23:14.155+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="36"2023-02-17T18:28:06.506+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 16496 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:28:06.518+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:28:07.445+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8040 (http)
+ thread_id="1"2023-02-17T18:28:07.457+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:28:07.458+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:28:07.458+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:28:07.576+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:28:07.576+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1001 ms
+ thread_id="1"2023-02-17T18:28:07.630+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:28:07.900+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:28:07.918+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:28:07.918+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:28:07.919+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-17T18:28:07.920+0530 INFO TomcatWebServer:Tomcat started on port(s): 8040 (http) with context path ''
+ thread_id="1"2023-02-17T18:28:07.930+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.729 seconds (JVM running for 2.506)
+ thread_id="1"2023-02-17T18:28:17.828+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="35"2023-02-17T18:28:17.833+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="35"2023-02-17T18:28:17.834+0530 INFO PehchanServiceImpl:eventDocType : PehchanDateOfBirth
+ thread_id="35"2023-02-17T18:28:17.835+0530 ERROR PehchanServiceImpl:registration : 
+ thread_id="35"2023-02-17T18:28:17.938+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="35"2023-02-17T18:28:59.925+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="39"2023-02-17T18:28:59.927+0530 INFO PehchanServiceImpl:eventDocType : PehchanDateOfBirth
+ thread_id="39"2023-02-17T18:28:59.928+0530 INFO PehchanServiceImpl:registration : 08126006000000900062
+ thread_id="39"2023-02-17T18:28:59.928+0530 ERROR PehchanServiceImpl:year : 
+ thread_id="39"2023-02-17T18:28:59.976+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="39"2023-02-17T18:29:33.435+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="38"2023-02-17T18:29:33.437+0530 INFO ReadPropertiesFile:error in reading property file : 
+ thread_id="38"2023-02-17T18:31:18.852+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 23300 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:31:18.862+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:31:19.755+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8040 (http)
+ thread_id="1"2023-02-17T18:31:19.767+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:31:19.768+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:31:19.768+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:31:19.891+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:31:19.892+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 975 ms
+ thread_id="1"2023-02-17T18:31:19.947+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:31:20.230+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:31:20.247+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:31:20.248+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:31:20.249+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-17T18:31:20.252+0530 INFO TomcatWebServer:Tomcat started on port(s): 8040 (http) with context path ''
+ thread_id="1"2023-02-17T18:31:20.261+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.725 seconds (JVM running for 2.492)
+ thread_id="1"2023-02-17T18:31:33.546+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="36"2023-02-17T18:31:33.546+0530 ERROR PehchanServiceImpl:eventDocType : 
+ thread_id="36"2023-02-17T18:31:33.660+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="36"2023-02-17T18:32:09.727+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="39"2023-02-17T18:32:09.728+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="39"2023-02-17T18:32:09.730+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="39"2023-02-17T18:32:09.731+0530 ERROR PehchanServiceImpl:registration : 
+ thread_id="39"2023-02-17T18:32:09.779+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="39"2023-02-17T18:32:20.512+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="40"2023-02-17T18:32:20.515+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="40"2023-02-17T18:32:20.516+0530 INFO PehchanServiceImpl:registration : 08126006000000900062
+ thread_id="40"2023-02-17T18:32:20.517+0530 ERROR PehchanServiceImpl:year : 
+ thread_id="40"2023-02-17T18:32:20.583+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="40"2023-02-17T18:32:42.421+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="42"2023-02-17T18:32:42.423+0530 ERROR PehchanServiceImpl:eventDocType : 
+ thread_id="42"2023-02-17T18:32:42.505+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="42"2023-02-17T18:33:17.146+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="44"2023-02-17T18:33:17.147+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="44"2023-02-17T18:33:17.147+0530 INFO PehchanServiceImpl:registration : 08126006000000900062
+ thread_id="44"2023-02-17T18:33:17.149+0530 ERROR PehchanServiceImpl:year : 
+ thread_id="44"2023-02-17T18:33:17.215+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="44"2023-02-17T18:33:27.670+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="36"2023-02-17T18:33:27.673+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="36"2023-02-17T18:33:27.673+0530 ERROR PehchanServiceImpl:registration : 
+ thread_id="36"2023-02-17T18:33:27.745+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="36"2023-02-17T18:33:39.198+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="39"2023-02-17T18:33:39.199+0530 ERROR PehchanServiceImpl:eventDocType : 
+ thread_id="39"2023-02-17T18:33:39.269+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="39"2023-02-17T18:33:48.987+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="40"2023-02-17T18:33:48.990+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="40"2023-02-17T18:33:48.991+0530 INFO PehchanServiceImpl:registration : 08126006000000900062
+ thread_id="40"2023-02-17T18:33:48.992+0530 INFO PehchanServiceImpl:year : 2019
+ thread_id="40"2023-02-17T18:33:48.993+0530 INFO PehchanServiceImpl:The extracted substring  is : 08126006000000900062
+ thread_id="40"2023-02-17T18:33:48.994+0530 INFO PehchanServiceImpl:Office Id : 812600009
+ thread_id="40"2023-02-17T18:33:48.994+0530 INFO PehchanServiceImpl:Registration Number : 08126006000000900062/2019/812600009/Birth
+ thread_id="40"2023-02-17T18:33:48.995+0530 INFO PehchanServiceImpl:Url : https://evault.rajasthan.gov.in/DocViewerNew/preview.jsp?id=null&type=PEHCHAN
+ thread_id="40"2023-02-17T18:33:49.061+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="40"2023-02-17T18:39:19.318+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 21668 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:39:19.329+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:39:20.274+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8040 (http)
+ thread_id="1"2023-02-17T18:39:20.286+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:39:20.287+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:39:20.287+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:39:20.416+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:39:20.417+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1034 ms
+ thread_id="1"2023-02-17T18:39:20.471+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:39:20.741+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:39:20.747+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8040 is already in use
+ thread_id="1"2023-02-17T18:39:20.761+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:39:20.761+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-17T18:39:20.770+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:39:20.770+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8040"]
+ thread_id="1"2023-02-17T18:39:20.778+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-17T18:39:20.791+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8040 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-17T18:39:35.514+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 16144 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:39:35.531+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:39:36.460+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8089 (http)
+ thread_id="1"2023-02-17T18:39:36.471+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:39:36.472+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:39:36.472+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:39:36.617+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:39:36.617+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1019 ms
+ thread_id="1"2023-02-17T18:39:36.680+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:39:36.947+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:39:36.970+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:39:36.970+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:39:36.971+0530 INFO FrameworkServlet:Completed initialization in 0 ms
+ thread_id="1"2023-02-17T18:39:36.973+0530 INFO TomcatWebServer:Tomcat started on port(s): 8089 (http) with context path ''
+ thread_id="1"2023-02-17T18:39:36.981+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.784 seconds (JVM running for 2.611)
+ thread_id="1"2023-02-17T18:39:42.456+0530 INFO AppPehchanDocViewServiceImpl:*****Inserted data here****
+ thread_id="43"2023-02-17T18:39:42.457+0530 INFO PehchanServiceImpl:eventDocType : Birth
+ thread_id="43"2023-02-17T18:39:42.458+0530 INFO PehchanServiceImpl:registration : 08126006000000900062
+ thread_id="43"2023-02-17T18:39:42.458+0530 INFO PehchanServiceImpl:year : 2019
+ thread_id="43"2023-02-17T18:39:42.458+0530 INFO PehchanServiceImpl:The extracted substring  is : 08126006000000900062
+ thread_id="43"2023-02-17T18:39:42.459+0530 INFO PehchanServiceImpl:Office Id : 812600009
+ thread_id="43"2023-02-17T18:39:42.459+0530 INFO PehchanServiceImpl:Registration Number : 08126006000000900062/2019/812600009/Birth
+ thread_id="43"2023-02-17T18:39:42.459+0530 INFO PehchanServiceImpl:Url : https://evault.rajasthan.gov.in/DocViewerNew/preview.jsp?id=null&type=PEHCHAN
+ thread_id="43"2023-02-17T18:39:42.509+0530 INFO AppPehchanDocViewServiceImpl:*****update data here****
+ thread_id="43"2023-02-17T18:40:39.987+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 19376 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:40:39.999+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:40:40.869+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8089 (http)
+ thread_id="1"2023-02-17T18:40:40.881+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:40:40.882+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:40:40.883+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:40:41.037+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:40:41.038+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 982 ms
+ thread_id="1"2023-02-17T18:40:41.091+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:40:41.352+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:40:41.358+0530 WARN AbstractApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8089 is already in use
+ thread_id="1"2023-02-17T18:40:41.383+0530 INFO DirectJDKLog:Pausing ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:40:41.383+0530 INFO DirectJDKLog:Stopping service [Tomcat]
+ thread_id="1"2023-02-17T18:40:41.391+0530 INFO DirectJDKLog:Stopping ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:40:41.392+0530 INFO DirectJDKLog:Destroying ProtocolHandler ["http-nio-8089"]
+ thread_id="1"2023-02-17T18:40:41.400+0530 INFO ConditionEvaluationReportLoggingListener:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ thread_id="1"2023-02-17T18:40:41.415+0530 ERROR LoggingFailureAnalysisReporter:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8089 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8089 or configure this application to listen on another port.
+
+ thread_id="1"2023-02-17T18:41:04.876+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 10472 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:41:04.888+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:41:05.791+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8088 (http)
+ thread_id="1"2023-02-17T18:41:05.803+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-17T18:41:05.804+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:41:05.804+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:41:05.942+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:41:05.942+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1003 ms
+ thread_id="1"2023-02-17T18:41:05.997+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:41:06.272+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-17T18:41:06.290+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:41:06.291+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:41:06.293+0530 INFO FrameworkServlet:Completed initialization in 2 ms
+ thread_id="1"2023-02-17T18:41:06.295+0530 INFO TomcatWebServer:Tomcat started on port(s): 8088 (http) with context path ''
+ thread_id="1"2023-02-17T18:41:06.304+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.753 seconds (JVM running for 2.524)
+ thread_id="1"2023-02-17T18:41:20.936+0530 INFO AppPehchanDocViewServiceImpl:SQLException : insertViewDocument :oracle.jdbc.driver.OracleDriver
+ thread_id="37"2023-02-17T18:43:04.752+0530 INFO StartupInfoLogger:Starting EvaultApplication using Java 1.8.0_341 on HP with PID 24692 (D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0\target\classes started by hp5cd in D:\Raj_Evault\NEW\ev-sign\ev-sign\evault1.0)
+ thread_id="1"2023-02-17T18:43:04.762+0530 INFO SpringApplication:No active profile set, falling back to 1 default profile: "default"
+ thread_id="1"2023-02-17T18:43:05.662+0530 INFO TomcatWebServer:Tomcat initialized with port(s): 8088 (http)
+ thread_id="1"2023-02-17T18:43:05.675+0530 INFO DirectJDKLog:Initializing ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-17T18:43:05.676+0530 INFO DirectJDKLog:Starting service [Tomcat]
+ thread_id="1"2023-02-17T18:43:05.676+0530 INFO DirectJDKLog:Starting Servlet engine: [Apache Tomcat/9.0.71]
+ thread_id="1"2023-02-17T18:43:05.815+0530 INFO DirectJDKLog:Initializing Spring embedded WebApplicationContext
+ thread_id="1"2023-02-17T18:43:05.815+0530 INFO ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 993 ms
+ thread_id="1"2023-02-17T18:43:05.871+0530 INFO ReadPropertiesFile:Reading all properties from the file
+ thread_id="1"2023-02-17T18:43:06.158+0530 INFO DirectJDKLog:Starting ProtocolHandler ["http-nio-8088"]
+ thread_id="1"2023-02-17T18:43:06.176+0530 INFO DirectJDKLog:Initializing Spring DispatcherServlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:43:06.177+0530 INFO FrameworkServlet:Initializing Servlet 'dispatcherServlet'
+ thread_id="1"2023-02-17T18:43:06.178+0530 INFO FrameworkServlet:Completed initialization in 1 ms
+ thread_id="1"2023-02-17T18:43:06.180+0530 INFO TomcatWebServer:Tomcat started on port(s): 8088 (http) with context path ''
+ thread_id="1"2023-02-17T18:43:06.188+0530 INFO StartupInfoLogger:Started EvaultApplication in 1.741 seconds (JVM running for 2.509)
+ thread_id="1"2023-02-17T18:43:08.853+0530 INFO AppPehchanDocViewServiceImpl:SQLException : insertViewDocument :oracle.jdbc.driver.OracleDriver
+ thread_id="35"

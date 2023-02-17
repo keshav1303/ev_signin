@@ -6,20 +6,27 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.util.Set;
 
+import com.evault.eb.entity.AppPehchanDocView;
+import com.evault.eb.exception.InvalidEventTypeException;
 import com.evault.eb.exception.NoPropertyFileFoundException;
 import com.evault.eb.exception.NoSuchPropertyFoundException;
+import com.evault.eb.service.AppPehchanDocViewService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 @Component
 @Cacheable
 public class ReadPropertiesFile {
 
-    private static final Logger log = LogManager.getLogger(ReadPropertiesFile.class);
-    // This file is added for reading the external property file added for fileNet
-    // mapping and connection
+    private static final Logger logger = LogManager.getLogger(ReadPropertiesFile.class);
+
+    @Autowired
+    private AppPehchanDocViewService appPehchanDocViewService;
     private final Properties configProp = new Properties();
 
     private ReadPropertiesFile() {
@@ -27,14 +34,11 @@ public class ReadPropertiesFile {
         InputStream in = this.getClass().getClassLoader().getResourceAsStream("application.properties");
         try {
             // in = new FileInputStream("/opt/IBM/properties/filenet.properties");
-            log.info("Reading all properties from the file");
+            logger.info("Reading all properties from the file");
             configProp.load(in);
-        } catch (FileNotFoundException e1) {
-            log.info("error in reading property file : " + e1.getLocalizedMessage());
+        } catch (Exception e1) {
+            logger.info("error in reading property file : " + e1.getLocalizedMessage());
             throw new NoPropertyFileFoundException("Error in reading property file :" + e1.getLocalizedMessage());
-        } catch (IOException e) {
-            log.info(e.getMessage());
-//            throw new IOException("Something went wrong ");
         }
     }
 
@@ -42,23 +46,22 @@ public class ReadPropertiesFile {
         private static final ReadPropertiesFile INSTANCE = new ReadPropertiesFile();
     }
 
-    public static ReadPropertiesFile getInstance() {
+    public static ReadPropertiesFile getInstance() throws JSONException , InvalidEventTypeException {
         return LazyHolder.INSTANCE;
     }
 
-    public String getProperty(String key) {
-        String property = configProp.getProperty(key);
+    public String checkEventInPropertiesFile(AppPehchanDocView appPehchanDocView) throws JSONException ,InvalidEventTypeException{
+   
+        String property = configProp.getProperty(appPehchanDocView.getEvent());
         if (property == null) {
-            throw new NoSuchPropertyFoundException("No Such Property Found.");
+            logger.info("error in reading property file : ");
+            appPehchanDocView.setResponseCode(Messages.MESSAGE_CODE_IE_133);
+            appPehchanDocViewService.updateViewDocument(appPehchanDocView);
+            throw new NoSuchPropertyFoundException(Utility.getJsonResponseFlr(HttpStatus.BAD_REQUEST.toString(), "", Messages.MESSAGE_CODE_IE_133, appPehchanDocView.getIncidentId(), "", Messages.MESSAGE_VALUE_IE_133));
         }
         return property;
     }
 
-    public Set<String> getAllPropertyNames() {
-        return configProp.stringPropertyNames();
-    }
 
-    public boolean containsKey(String key) {
-        return configProp.containsKey(key);
-    }
+
 }

@@ -19,7 +19,7 @@ public class EvaultApplication extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(EvaultApplication.class, args);
+		SpringApplication.run(EvaultApplication.class, args); 
 	}
 
 }

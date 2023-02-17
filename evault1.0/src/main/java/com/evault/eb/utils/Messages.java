@@ -24,7 +24,7 @@ public class Messages {
 
     public static final String MESSAGE_CODE_IE_123 = "IE-123";
 
-    public static final String MESSAGE_VALUE_IE_123 = "Mandatory parameter/s #value# is/are \t\t\t\tmissing";
+    public static final String MESSAGE_VALUE_IE_123 = "Mandatory parameter/s #value# is/are missing";
 
     public static final String MESSAGE_CODE_IE_124 = "IE-124";
 
@@ -51,21 +51,28 @@ public class Messages {
     public static final String MESSAGE_VALUE_IE_129 = "DocumentId does not exist in Filenet with document type #value#";
 
     public static final String MESSAGE_CODE_IE_130 = "IE-130";
-
     public static final String MESSAGE_VALUE_IE_130 = "Please enter the correct event.";
+
+
+    // made by keshav
+
+    public static final String MESSAGE_CODE_MS_110 = "MS-129";
 
     public static final String MESSAGE_TRUE = "True";
     public static final String MESSAGE_FALSE = "False";
 
-    public static final String MESSAGE_CODE_MS_130 = "MS-130";
-    public static final String MESSAGE_VALUE_MS_130 = "Year not found";
-
-    public static final String MESSAGE_CODE_MS_131 = "MS-131";
-    public static final String MESSAGE_VALUE_MS_131 = "Event DocType not found";
+    public static final String MESSAGE_CODE_MS_131 = "MS-130";
+    public static final String MESSAGE_VALUE_MS_131 = "Year not found";
 
     public static final String MESSAGE_CODE_IE_132 = "IE-32";
 
     public static final String MESSAGE_VALUE_IE_132 = "Code value not found";
+
+    public static final String MESSAGE_CODE_IE_133 = "IE-33";
+
+    public static final String MESSAGE_VALUE_IE_133= "No event found in properties file";
+    
+    public static final String MESSAGE_CODE_MS_109 = "MS-109";
 
 }
 
